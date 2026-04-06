@@ -14,16 +14,25 @@
 6. [نصائح مهمة](#نصائح-مهمة)
 7. [روابط مفيدة](#روابط-مفيدة)
 
----
 
 ## مقدمة
 **Zod** هي مكتبة TypeScript للتحقق من صحة البيانات (schema validation) بطريقة قوية وسهلة.  
 تستخدم لإنشاء **schemas** تحدد شكل البيانات وقواعدها، ومفيدة جدًا في مشاريع **Node.js** و **Next.js**.
 
----
 
 ## تثبيت المكتبة
 ```bash
 npm install zod
 # أو
 yarn add zod
+
+
+## إنشاء Schema
+```ts
+import { z } from "zod";
+
+const userSchema = z.object({
+  name: z.string(),
+  age: z.number().min(0),
+  email: z.string().email(),
+});
