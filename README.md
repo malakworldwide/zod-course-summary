@@ -17,8 +17,8 @@
 
 ## مقدمة
 <p dir="rtl">
-<strong>Zod</strong> هي مكتبة TypeScript للتحقق من صحة البيانات (schema validation) بطريقة قوية وسهلة.<br>
-تستخدم لإنشاء <strong>schemas</strong> تحدد شكل البيانات وقواعدها، ومفيدة جدًا في مشاريع <strong>Node.js</strong> و <strong>Next.js</strong>.
+<strong>Zod</strong> هي مكتبة TypeScript للتحقق من صحة البيانات (schema validation)<br>
+تستخدم لإنشاء <strong>schemas</strong> تحدد شكل البيانات وقواعدها.
 </p>
 
 ## تثبيت المكتبة
