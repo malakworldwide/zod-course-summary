@@ -26,7 +26,7 @@ npm install zod
 # أو
 yarn add zod
 
-
+```
 ## إنشاء Schema
 ```ts
 import { z } from "zod";
@@ -36,3 +36,4 @@ const userSchema = z.object({
   age: z.number().min(0),
   email: z.string().email(),
 });
+```
